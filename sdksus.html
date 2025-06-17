@@ -79,22 +79,39 @@
             color: #666;
             margin-top: 10px;
         }
-    table.my-table {
-    border-collapse: collapse;
-    width: 100%;
-    }
-
-    table.my-table th, table.my-table td {
-      border: 1px solid #e0e0e0;
-      padding: 8px;
-    }
+        table.my-table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+    
+        table.my-table th, table.my-table td {
+          border: 1px solid #e0e0e0;
+          padding: 8px;
+        }
+        .table-responsive {
+          width: 100%;
+          overflow-x: auto;
+        }
+        
+        @media (max-width: 768px) {
+          table.my-table th, table.my-table td {
+            font-size: 14px;
+            min-width: 150px;
+            word-break: break-word;
+          }
+        
+          table.my-table {
+            font-size: 14px;
+          }
+}
   </style>
 </head>
 <body>
 
 <h2 style="text-align: center; margin-bottom: 20px;">SDK List</h2>
 
-<table class="my-table">
+<div class="table-responsive">
+  <table class="my-table">
   <thead>
     <tr>
       <th style="width: 15%;">Name of SDK</th>
@@ -190,6 +207,7 @@
       </tr>
   </tbody>
 </table>
+</div>
 
 </body>
 </html>
