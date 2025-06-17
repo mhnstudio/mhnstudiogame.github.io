@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SDK List</title>
+  <style>
+    body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        main {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .content {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        ol,li,ul {
+          list-style: none;
+          padding: 0px;
+        }
+
+        i {
+          font-style: normal;
+          text-decoration: none;
+        }
+
+        .container {
+          text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #2b6cb0;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #1a4b7a;
+        }
+
+        .contact {
+            margin-top: auto;
+            font-size: 16px;
+            padding: 20px 0;
+        }
+
+        .contact a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+    table.my-table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    table.my-table th, table.my-table td {
+      border: 1px solid #e0e0e0;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align: center; margin-bottom: 20px;">SDK List</h2>
+
+<table class="my-table">
+  <thead>
+    <tr>
+      <th style="width: 15%;">Name of SDK</th>
+      <th style="width: 35%;">What will be collected?</th>
+      <th style="width: 20%;">SDK Developer</th>
+      <th style="width: 15%;">Purpose</th>
+      <th style="width: 15%;">Links to third-party SDK privacy policies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AppLovin and AppLovin MAX</td>
+      <td>
+        Device make, model, and operating system; Device properties related to screen size, orientation, audio, battery, usage, settings, and boot time; Device settings related to accessibility, font size, theme; OS; App properties; Country, time zone, language; Geo-location data; Network connection type and speed; IP Address; Browser used; HTTP header; Advertising IDs (IDFA/GAID/Amazon FOSAD); Vendor IDs (IDFV); Advertising and tracking preferences.
+      </td>
+      <td>AppLovin is an advertising service provided by AppLovin Corporation. (US)</td>
+      <td>Advertising Services</td>
+      <td><a href="https://www.applovin.com/privacy" target="_blank">https://www.applovin.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td>Inmobi</td>
+      <td>
+        iOS IDFA, IDFV, Google GAID, Android ID, IMEI, Cookie IDs, IP address, Wi-Fi access points, time of connection, site name, SDK version, device type, name, memory, OS version, browser, language, time zone, content type, etc.
+      </td>
+      <td>InMobi is an advertising service provided by InMobi PTE Ltd (Singapore)</td>
+      <td>Advertising Services</td>
+      <td><a href="https://www.inmobi.com/privacy-policy/" target="_blank">https://www.inmobi.com/privacy-policy/</a></td>
+    </tr>
+    <tr>
+      <td>Google AdMob and their partners</td>
+      <td>
+        Apps, browsers, unique identifiers, browser type and settings, device settings, OS, interaction with ads, crash reports, etc.
+      </td>
+      <td>AdMob by Google is provided by Google Inc. (US)</td>
+      <td>Advertising Services</td>
+      <td><a href="https://policies.google.com/privacy?hl=en#infocollect" target="_blank">https://policies.google.com/privacy?hl=en#infocollect</a></td>
+    </tr>
+    <tr>
+        <td>UnityAds</td>
+        <td>unique device identifiers ; IP address; country of install ; device manufacturer and model platform type and the operating system and version running on your system or device; CPU information; the graphics card type and vendor name; graphics card driver name and version ; amount of system and video RAM present; application or bundle identification (“app ID”) of the game installed; unique advertising identifiers provided for iOS and Android devices (e.g., IDFA or Android Ad ID).</td>
+        <td>Unity Ads is an advertising service provided by Unity Ads Inc. (US)</td>
+        <td>Advertising Services</td>
+        <td><a href="https://unity3d.com/legal/privacy-policy" target="_blank">https://unity3d.com/legal/privacy-policy</a></td>
+      </tr>
+      <tr>
+        <td>Ironsource</td>
+        <td>Identifiers: Advertising ID, IP address, and a self-created ID unique to a specific app, and IDs unique only to apps of the same developer,ID For Advertising (“IDFA”). Technical information such as the device’s time zone, the amount of free memory on the device, the name and version of the app to which the ad is served, battery status, operating system name and version, the language of the operating system, the name of the mobile carrier, internet connection type (e.g. WiFi), etc. An indication if an ad was viewed, or clicked, or if there was an install of an advertised app. Information about actions performed within an advertiser’s app following such an install.</td>
+        <td>IronSource is an advertising service provided by IronSource, Inc. (US) and does not require opt-in or opt-out signals from users in our Services, since they provide only non-personalized ads in our Services.</td>
+        <td>Advertising Services</td>
+        <td><a href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/" target="_blank">https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/</a></td>
+      </tr>
+      <tr>
+        <td>Mintegral</td>
+        <td>IMEI, Android ID, OAID, IDFV, IDFA or GAID. device make, device model, information of operating system, device type, information of screen, information of battery, device volume and font size, whether the it is an emulator, information of network, information of hardware, information of device sensor, system boot time, device user name, information of storage capacity. package name of the app of Mintegral’s Business Partners, whether it is downloaded from App Store, version and characteristic of the app used by you when you interact with Mintegral’s Service, SDK version, list of installed apps. information about your interaction with ads, timestamp, device event information such as crashes, system activity, the date and time of your request and referral URL, user-agent.</td>
+        <td>Mintegral is provided by Mintegral International Limited(China)</td>
+        <td>Advertising Services</td>
+        <td><a href="https://www.mintegral.com/en/privacy/" target="_blank">https://www.mintegral.com/en/privacy/</a></td>
+      </tr>
+      <tr>
+        <td>Vungle</td>
+        <td>Information about your device, such as the type and model, manufacturer, operating system, carrier name, time zone, network connection type (e.g., Wi-Fi, cellular), IP address, Vungle SDK version, and identifiers assigned to your device, such as its iOS Identifier for Advertising (IDFA), Android Advertising ID (AAID or GAID).</td>
+        <td>Vungle is provided by Vungle, Inc. (US)</td>
+        <td>Advertising Services</td>
+        <td><a href="https://vungle.com/privacy/" target="_blank">https://vungle.com/privacy/</a></td>
+      </tr>
+      <tr>
+        <td>Facebook Audience Network</td>
+        <td>The devices and software you are currently using,What you do on your device,Identifier that distinguishes your device from other users'devices, Information you share with us through device settings as GPS location, camera access, photos, your IP address.</td>
+        <td>Facebook Audience Network is an advertising service provided by Facebook, Inc. (US) that may collect or receive information from our apps and other apps and use that information to provide measurement services and targeted ads. Facebook does not require opt-in or opt-out signals from users in our services. Relevant signals are collected directly from the user upon creating an account in such Services.</td>
+        <td>Advertising Services</td>
+        <td><a href="https://www.facebook.com/about/privacy/" target="_blank">https://www.facebook.com/about/privacy/</a></td>
+      </tr>
+      <tr>
+        <td>Facebook Analytics</td>
+        <td>The devices and software you are currently using, as well as other device features. What you do on your device,Identifier generic device number,Signal from the device,GPS location, camera access, photos, IP address, cookies.        </td>
+        <td>Facebook Analytics is an analytics tool provided by Facebook, Inc. (US) that may collect or receive information from our apps and other apps and use that information to provide measurement services.        </td>
+        <td>Attribution, analytics, ad fraud protection services and crash analytics</td>
+        <td><a href="https://www.facebook.com/about/privacy/" target="_blank">https://www.facebook.com/about/privacy/</a></td>
+      </tr>
+      <tr>
+        <td>Firebase</td>
+        <td>The apps, browsers, devices, unique identifiers, browser type and settings, device type and settings, operating system, mobile network information including carrier name and phone number, and application version number, IP address, crash reports, system activity, and the date, time, and referrer URL of your request.</td>
+        <td>Firebase is an analytics service provided by Google Inc. (US). You may opt-out of certain Firebase features through your mobile device settings.</td>
+        <td>Attribution, analytics, ad fraud protection services and crash analytics</td>
+        <td><a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">https://www.google.com/intl/en/policies/privacy/</a></td>
+      </tr>
+      <tr>
+        <td>Google Analytics</td>
+        <td>The apps, browsers, devices, unique identifiers, browser type and settings, device type and settings, operating system, mobile network information including carrier name and phone number, and application version number, IP address, crash reports, system activity, and the date, time, and referrer URL of your request.</td>
+        <td>Google Analytics is an analytics service provided by Google Inc. (US)</td>
+        <td>Attribution, analytics, ad fraud protection services and crash analytics</td>
+        <td><a href="https://policies.google.com/technologies/partner-sites" target="_blank">https://policies.google.com/technologies/partner-sites</a></td>
+      </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
