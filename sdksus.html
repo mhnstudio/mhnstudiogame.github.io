@@ -79,30 +79,33 @@
             color: #666;
             margin-top: 10px;
         }
-        table.my-table {
-        border-collapse: collapse;
-        width: 100%;
-        }
-    
-        table.my-table th, table.my-table td {
-          border: 1px solid #e0e0e0;
-          padding: 8px;
-        }
         .table-responsive {
           width: 100%;
           overflow-x: auto;
         }
+
+        table.my-table {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 15px;
+        }
+
+        table.my-table th,
+        table.my-table td {
+          border: 1px solid #e0e0e0;
+          padding: 8px;
+          font-size: 15px;
+          min-width: 150px;
+          vertical-align: top;
+          word-break: break-word;
+          box-sizing: border-box;
+        }
         
         @media (max-width: 768px) {
-          table.my-table th, table.my-table td {
-            font-size: 14px;
-            min-width: 150px;
-            word-break: break-word;
+          table.my-table td:nth-child(2) {
+            min-width: 250px;
           }
-        
-          table.my-table {
-            font-size: 14px;
-          }
+        }
 }
   </style>
 </head>
