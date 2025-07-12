@@ -904,7 +904,7 @@ zmaticoo.com,5135302,RESELLER
 zoomd.com,88478941,RESELLER
 
 # ironSource configuration
-OWNERDOMAIN=mycoolapp.com
+OWNERDOMAIN=mhnstudiogame.com
 ironsrc.com, f3d543b3, Direct
 rubiconproject.com, 24400, RESELLER, 0bfd66d529a55807
 video.unrulymedia.com, 2464975885, RESELLER
